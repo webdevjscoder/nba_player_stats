@@ -5,3 +5,8 @@ gemspec
 
 gem "rake", "~> 12.0"
 gem "rspec", "~> 3.0"
+gem "nokogiri"
+
+group :development do
+  gem "pry"
+end
